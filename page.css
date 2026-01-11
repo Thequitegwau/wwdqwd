@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #667eea, #764ba2, #ff9a9e);
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+/* Title at the top */
+.title {
+  padding-top: 30px;
+  font-size: 2.8rem;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
+/* Center image content */
+.content {
+  height: calc(100vh - 120px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content img {
+  max-width: 80%;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
