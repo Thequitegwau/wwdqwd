@@ -1,8 +1,8 @@
 function checkName() {
-  const input = document.getElementById("nameInput").value.toLowerCase();
+  const input = document.getElementById("nameInput").value.trim().toLowerCase();
   const error = document.getElementById("error");
 
-  const myName = "Ayoub"; // 👈 put your name here
+  const myName = "ayoub"; // MUST be lowercase
 
   if (input === myName) {
     window.location.href = "page.html";
